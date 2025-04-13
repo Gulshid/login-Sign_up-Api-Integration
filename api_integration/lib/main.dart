@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                     fontSizeFactor: 1.sp,
                   ),
                 ),
-                initialRoute: RoutesName.home,
+                initialRoute: RoutesName.login,
                 onGenerateRoute: Routes.generate_Route,
               );
             },
