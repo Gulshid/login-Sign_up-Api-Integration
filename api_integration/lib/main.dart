@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (context, child) {
         return MultiProvider(
-          providers: [ChangeNotifierProvider(create: (_) =>ApiIntegViewmodel ())],
+          providers: [ChangeNotifierProvider(create: (_) =>ApiIntegViewmodel())],
 
           child: Builder(
             builder: (BuildContext context) {
